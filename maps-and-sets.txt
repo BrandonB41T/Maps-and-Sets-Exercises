@@ -1,0 +1,23 @@
+What does the following code return?
+
+new Set([1,1,2,2,3,4])    // ANS: [1, 2, 3, 4]
+
+
+
+What does the following code return?
+
+[...new Set("referee")].join("")     // ANS: "ref"
+
+
+
+What does the following code return?
+
+let m = new Map();
+m.set([1,2,3], true);
+m.set([1,2,3], false);
+
+// ANS:
+{
+    0: [1, 2, 3] => true,
+    1: [1, 2, 3] => false
+}
